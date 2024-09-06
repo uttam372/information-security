@@ -35,12 +35,12 @@ void dicription_call(string hyper_text, int key, int size)
 int main() 
 {  
   int choice;
-  cout<<"enter your choice want to incript or decript 1 OR 2"<<endl;
+  cout<<"enter your choice want to incript or decript 1 OR 2 in "<<endl;
   cin>>choice;
   if(choice==1)
   {
    string plain_text;
-   cout << "Enter plain text: ";
+   cout << "Enter plain text: in capital ";
    cin >> plain_text;             // taking input of plain text;
    
    int key;
@@ -55,7 +55,7 @@ int main()
   else{
       
        string hyper_text;
-   cout << "hyper text: ";
+   cout << "cypher text: in capital ";
    cin >> hyper_text;             // taking input of plain text;
    
    int key;
